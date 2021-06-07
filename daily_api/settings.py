@@ -145,5 +145,4 @@ REST_FRAMEWORK = {  # これも追加
     'DEFAULT_PERMISSION_CLASSES': [
         'rest_framework.permissions.AllowAny',
     ],
-
 }
