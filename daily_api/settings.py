@@ -78,7 +78,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'django-daily-api.herokuapp.com'
+WSGI_APPLICATION = 'daily_api.wsgi.application'
 
 
 # Database
