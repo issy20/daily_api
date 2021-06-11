@@ -137,7 +137,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CORS_ORIGIN_WHITELIST = [
     'http://localhost:3000',
-    'https://next-daily.vercel.app/'
+    'https://next-daily.vercel.app'
 ]
 
 REST_FRAMEWORK = {  # これも追加
