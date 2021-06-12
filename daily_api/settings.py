@@ -135,10 +135,7 @@ STATIC_ROOT = str(BASE_DIR / 'staticfiles')
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-CORS_ORIGIN_WHITELIST = [
-    'http://localhost:3000',
-    'https://next-daily.vercel.app'
-]
+CORS_ORIGIN_ALLOW_ALL = True
 
 REST_FRAMEWORK = {  # これも追加
     'DEFAULT_PERMISSION_CLASSES': [
